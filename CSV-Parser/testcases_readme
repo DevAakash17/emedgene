@@ -1,0 +1,40 @@
+
+
+
+testcases
+
+flow
+
+Parser
+input
+take the csv file
+output
+Data structure list of list string
+
+
+testcase 1
+assert output
+[
+    ["Name","Email","Phone Number","Address"],
+    ["Bob Smith","bob@example.com","123-456-7890","123 Fake Street"],
+    ["Mike Jones","mike@example.com","098-765-4321","321 Fake Avenue"]
+]
+
+testcase 2
+null column handling
+[
+    ["Name","Email","Phone Number","Address"],
+    ["Bob Smith","bob@example.com",None,None],
+    ["Mike Jones","mike@example.com","098-765-4321","321 Fake Avenue"]
+]
+
+testcase 3
+double quote allowed
+end of string caSe
+
+testcase 4
+double quote allowed
+start or mid of string case
+
+testcase 5
+single comma in a cell allowed
